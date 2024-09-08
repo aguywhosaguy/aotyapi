@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "aotyapi"
 version = "0.1.0"
-description = ""
+description = "A Python API to scrape data from albumoftheyear.org"
 authors = ["aguywhosaguy <caseypeg8@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+requests = "^2.32.3"
 
 
 [build-system]
